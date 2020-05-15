@@ -11,7 +11,7 @@
 
 body
 {
-	background-color: white;
+	background-color: #484956;
 	font-family: sans-serif;
 	display: flex;
 	align-items: center;
@@ -21,12 +21,15 @@ body
 
 .container
 {
-	background-color: grey;
+	background-color: #4C4C4C;
 	border-radius: 5px;
+	min-width: 50vh;
+	box-shadow: 0px 2px 10px rbga(0,0,0,0.3);
 }
 
 .form
 {
+	color: #FFFFFF;
 	padding: 30px;
 }
 
@@ -80,4 +83,18 @@ body
 h2
 {
 	text-align: center;
+}
+
+.form button
+{
+	cursor: pointer;
+	background-color: #4F95A1;
+	padding: 10px;
+	border: 0px;
+	border-radius: 5px;
+	display: block;
+	width: 100%;
+	font-size: 20px;
+	font-weight: bold;
+	color: #FFFFFF;
 }
