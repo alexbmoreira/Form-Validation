@@ -45,11 +45,6 @@ function checkPasswordMatch(input1, input2)
 	}
 }
 
-function checkLength(fields, min, max)
-{
-
-}
-
 function showError(field, message)
 {
 	const form_control = field.parentElement;
